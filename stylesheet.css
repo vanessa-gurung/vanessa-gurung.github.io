@@ -2,7 +2,6 @@
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-
 }
 
 @media only screen 
@@ -21,7 +20,7 @@
 
 .title {
   font-family: cooper-black-std, serif;
-  font-size: 70px;
+  font-size: 8vh;
   letter-spacing: 3px;
   display: flex;
   justify-content: center;
@@ -69,13 +68,12 @@ body {
 .bell1{
   display: flex;
   justify-content: flex-end;
-  padding-top: 2vh;
+  padding-bottom: 5vh
 }
 
 .worm2 {
   display: flex;
   align-items: flex-end;
-  padding-top: 5vh;
 }
 
 /* flexbox2 */
@@ -88,25 +86,26 @@ body {
 
 .toaster1{
   display: flex;
+  justify-content: center;
   padding-top: 4vh;
 }
 
 .lips1{
   display: flex; 
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: 6vh;
 }
 
 .clock2{
   display: flex;
   justify-content: flex-end;
-  padding-top: 6vh;
+  padding-top: 3vh;
 }
 
 .worm3 {
   display: flex;
   justify-content: flex-end;
-  padding-top: 10vh;
+  padding-top: 7vh;
 }
 
 /* flexbox3 */
@@ -128,7 +127,7 @@ body {
 
 .worm4 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 15vh;
 }
 
@@ -141,7 +140,7 @@ body {
 .toaster4 {
   display: flex;
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 
 /* flexbox5 */
@@ -161,12 +160,11 @@ body {
 .lips2 {
   display: flex;
   justify-content: center;
-  padding-top: 5vh;
 }
 
 .clock3 {
   display: flex;
   justify-content: flex-end;
-  padding-top: 10vh;
+  padding-top: 2vh;
   padding-right: 2vw;
 }
