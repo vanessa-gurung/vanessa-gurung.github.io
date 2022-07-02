@@ -115,12 +115,7 @@ body {
   flex-direction: column;
   height: 100%;
   width: 25%;
-}
-
-.dancingjesus {
-  display: flex;
   justify-content: center;
-  padding-top: 5vh;
 }
 
 /* flexbox4 */
