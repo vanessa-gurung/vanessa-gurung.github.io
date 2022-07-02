@@ -93,6 +93,7 @@ body {
 .lips1{
   display: flex; 
   justify-content: center;
+  padding-right: 4vh;
   padding-top: 6vh;
 }
 
@@ -154,17 +155,17 @@ body {
 .toaster3 {
   display: flex;
   justify-content: center;
-  padding-top: 10vh;
+  padding-top: 7vh;
 }
 
 .lips2 {
   display: flex;
   justify-content: center;
+  padding-top: 3vh;
 }
 
 .clock3 {
   display: flex;
-  justify-content: flex-end;
-  padding-top: 2vh;
-  padding-right: 2vw;
+  justify-content: center;
+  padding-top: 7vh;
 }
