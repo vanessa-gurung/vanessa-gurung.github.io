@@ -61,6 +61,23 @@ h2 {
   color: rgb(189, 52, 189);
 }
 
-p {
+p, h3 {
   font-family: 'Courier New', Courier, monospace;
+}
+
+.images {
+  display: inline-block;
+}
+
+.image1 {
+  height: 60vh;
+  width: 20vw;
+}
+
+.image2 {
+  height: 50vh;
+  width: 35vw;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+
 }

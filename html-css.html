@@ -20,13 +20,34 @@
     <h1 class="cssconcepts">CSS Concepts</h1>
     <h2 class="question">What does it mean to display inline vs. inline-blocks?</h2>
       <div>
-
       <p>
-        Explain pls
+        Display properties are used in CSS to lay out elements on a webpage. Two widely used display properties are display: inline and display: 
+        inline-block. Before explaining what they do respectively, I think it is necessary to explain what block level elements do. Block level 
+        elements always stack on top of each other even when there’s enough space to be side by side. The default width is 100% and even when the
+        width is less, a new line of content is forced automatically. This is good for things like paragraphs. The most common block elements are 
+        p and div. <br>
       </p>
+
+        <h3>Inline:</h3>
+      <p>In contrast to block elements, inline elements display side by side, as they live inside other things and don’t force new lines. The width 
+        is determined by the size of its content as opposed to 100%. This is good for when you don’t want a new line of content. However, the 
+        limitation of display: inline is that you cannot change the height of the element. Padding and margins still apply, but they cannot be used 
+        to change the height visibly. <br>
+        Common inline elements include: a span img and button
+      </p>             
+        <h3>Inline-block:</h3> 
+      <p>display: inline-block is a combination block and inline, as the name suggests. We can set the height and width properties as well as place 
+        elements side by side. We can also set the margin and padding the same way you could with a block level element, but also allow the elements 
+        to not force new lines. <br>
+        <br>  
+        Below are examples of the different ways in which elements can be displayed using display: display:block, display: inline and display: inline-block. 
+      </p>
+    </div>
       
-      </div>
-</div>
+    <div class="images">
+      <img class="image1" src="blog/media/displaycode.png" alt="Display code">
+      <img class="image2" src="blog/media/displayexamples.png" alt="Display examples">
+    </div>
 
 </body>
 </html>
