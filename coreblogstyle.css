@@ -44,6 +44,19 @@ a {
   color: inherit;
 }
 
+.corecontents {
+  font-family: 'simpsons';
+  font-size: x-large;
+  color: inherit;
+  list-style-type: none;
+  line-height: 160%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
+
 .simpsons {
   font-family: 'simpsons';
   font-size: x-large;
@@ -68,4 +81,8 @@ div {
 
 p {
   font-weight: bold;
+}
+
+footer {
+  padding-bottom: 10vh;
 }
