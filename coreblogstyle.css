@@ -69,8 +69,31 @@ footer {
 
 @media (min-device-width: 1800px) {
       div { 
-        color: white;
+        color: rgb(27, 29, 137);
       }
 }
 
+@media only screen and (min-width: 1800px) {
+  body {
+    background: pink;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    h2 {
+      color: rgba(255, 112, 23, 0.846);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(131, 108, 185);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+   .corecontents {
+    margin-top: 5vh;
+   }
+} 
 
