@@ -35,8 +35,7 @@
       <p class = "answer">In contrast to block elements, inline elements display side by side, as they live inside other things and don’t force new lines. The width 
         is determined by the size of its content as opposed to 100%. This is good for when you don’t want a new line of content. However, the 
         limitation of display: inline is that you cannot change the height of the element. Padding and margins still apply, but they cannot be used 
-        to change the height visibly. <br>
-        Common inline elements include: a span img and button
+        to change the height visibly. Common inline elements include: a span img and button
       </p>             
         <h3>Inline-block:</h3> 
       <p class = "answer">display: inline-block is a combination block and inline, as the name suggests. We can set the height and width properties as well as place 
@@ -47,30 +46,70 @@
       </p>
     </div>
       
-    <div class="images">
-      <img class="image1" src="blog/media/displaycode.png" alt="Display code">
-      <img class="image2" src="blog/media/displayexamples.png" alt="Display examples">
+    <div class="CSSconceptsimages">
+      <img class="CSSimage1" src="blog/media/displaycode.png" alt="Display code">
+      <img class="CSSimage2" src="blog/media/displayexamples.png" alt="Display examples">
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
+<br>
+<br>
 
     <h1 class="simpsons" id="JSF">Javascript Fundamentals</h1>
       <h2> An analogy to describe JavaScript and its relationship to HTML and CSS. </h2>
-
+        <p class = "answer"> 
+          HTML is Gimli – one-dimensional but necessary <br>
+          CSS is Legolas – the hot one <br>
+          Javascript is Aragorn – mysterious and complicated but gets shit done <br>
+          </p>
+          <img class="LOTR" src="blog/media/aragornlegolasgimli.jpeg" alt="iconictrio">
       <h2>Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those).</h2>
-
+        <p class = "answer"> Control flow is how a computer runs code from top to bottom – the equivalent of a human reading a book from start to finish. <br>
+          Loops are used to run the same code repeatedly, but with a different value each time. Kind of like going to work every day, doing the same mindless 
+          thing, with the changing value being the day of the week. 
+          </p>
       <h2>Describe what the DOM is and an example of how you might interact with it.</h2>
+         <p class = "answer"> The Document Object Model helps define the structure of a website through breaking it down into a tree structure composed of nodes 
+          and objects that allow for programming languages to interact with the page. There are many ways to interact with the DOM to change aspects of the page. 
+          This is done through selecting elements through their tags, id or class. A common way of doing this is with the querySelectorAll method. And then changes 
+          can be made to those elements. </p>
 
       <h2>Explain the difference between accessing data from arrays and objects.</h2>
+          <p class = "answer">
+            Both arrays and objects are methods to store data in JavaScript, but they differ in several ways. <br>
+            <br>
+            An array is a list of items e.g. different types of squid: <br>
+            <p class = "pretendCode"> let squidTypes = [“Giant”, “Colossal”, “Vampire”, “Humboldt”, “Japanese Flying”]; </p>
+            Each item has an index number assigned to them, starting from 0. “Giant” would be assigned 0, as it is the first item in the array and “Japanese 
+            Flying” would be assigned 4, as it is the last item in the array. It is through these indexes in which array items can be accessed e.g. <br>
+            let squid =  squidTypes[2] which would be “Vampire” 
+            <img class="squid" src="blog/media/vs.jpeg" alt="vampiresquid">
+            <br>
+            <br>
+            <br>
+            Objects similarly list things, but they come in the form of key value pairs: <br>
+             
+            <p class = "pretendCode"> 
+              let cookShowHost = { <br>
+	                readySteadyCook: “Ainsley”, <br>
+	                ironChefAmerica: “The Chairman”, <br>
+	                barefootContessa: “Ina Garten” <br>
+              }; </p>
+             
+            Object properties can be accessed in two ways using: variable.property; or variable[“property”]; e.g. <br>
+            <br>  
+            <p class = "pretendCode">let bestCook = cookShowHost.readySteadyCook <br>
+            let bestHost = cookShowHost["readySteadyCook"] </p><br>
+            <img class="ainsley" src="blog/media/ains.jpeg" alt="“Ainsley">
+            <br>  
+          </p>
 
       <h2>Explain what functions are and why they are helpful.</h2>
-        <p class = "answer">
+         <p class = "answer"> Functions are statements used in JavaScript that perform tasks or calculate values. They firstly need to be defined and then 
+          called upon. They’re handy because if you know that you you’ll be using it repeatedly, you can just use the function name, rather than repeatedly
+           typing out all the code. This means if you’ve made a mistake and would like to change the code within the function, you only have to change the 
+           OG one, rather several.  
         </p>
 
-       
       </div>
       
   </div>      
