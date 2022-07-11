@@ -277,6 +277,18 @@ a {
   padding-bottom: 4vh;
 }
 
+.joe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kobe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-device-width: 1800px) {
   html.specific-page
     div { 
