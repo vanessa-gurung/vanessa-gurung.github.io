@@ -183,7 +183,7 @@ body {
     color: yellow;
   }
 
-  .wholetext {
+  #wholetext {
     width: 60%;
     border: 0;
     padding-left: 20%;

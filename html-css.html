@@ -11,39 +11,43 @@
 <body>
   <header>
     <h1 class="title"> Tech Blog </h1>
-    <a class = "home" href="https://vanessa-gurung.github.io/">
-      <img src="blog/media/homer-simpson-bush.gif" alt="backtohomepage" width:"80vw"  height="50vw">
-    </a> 
+      <a class = "home" href="https://vanessa-gurung.github.io/">
+        <img src="blog/media/homer-simpson-bush.gif" alt="backtohomepage" width:"80vw"  height="50vw">
+     </a> 
   </header>
   <ul class="corecontents"> 
     <li> <a href="#CSSC">CSS Concepts</a> </li>
     <li> <a href="#JSF">JS Fundamentals</a> </li>
+    <li> <a href="#PS">Problem Solving</a> </li>
   </ul>  
 
-  <div class="wholetext">
+  <div id="wholetext">
     <h1 class="simpsons" id="CSSC">CSS Concepts</h1>
-    <h2>What does it mean to display inline vs. inline-blocks?</h2>
-      <div>
-      <p class = "answer">Display properties are used in CSS to lay out elements on a webpage. Two widely used display properties are display: inline and display: 
-        inline-block. Before explaining what they do respectively, I think it is necessary to explain what block level elements do. Block level 
-        elements always stack on top of each other even when there’s enough space to be side by side. The default width is 100% and even when the
-        width is less, a new line of content is forced automatically. This is good for things like paragraphs. The most common block elements are 
-        p and div. <br>
-      </p>
+      <h2>What does it mean to display inline vs. inline-blocks?</h2>
+        <div>
+          <p class = "answer">
+            Display properties are used in CSS to lay out elements on a webpage. Two widely used display properties are display: inline and display: 
+            inline-block. Before explaining what they do respectively, I think it is necessary to explain what block level elements do. Block level 
+            elements always stack on top of each other even when there’s enough space to be side by side. The default width is 100% and even when the
+            width is less, a new line of content is forced automatically. This is good for things like paragraphs. The most common block elements are 
+            p and div. 
+          </p>
 
         <h3>Inline:</h3>
-      <p class = "answer">In contrast to block elements, inline elements display side by side, as they live inside other things and don’t force new lines. The width 
-        is determined by the size of its content as opposed to 100%. This is good for when you don’t want a new line of content. However, the 
-        limitation of display: inline is that you cannot change the height of the element. Padding and margins still apply, but they cannot be used 
-        to change the height visibly. Common inline elements include: a span img and button
-      </p>             
+          <p class = "answer">
+            In contrast to block elements, inline elements display side by side, as they live inside other things and don’t force new lines. The width 
+            is determined by the size of its content as opposed to 100%. This is good for when you don’t want a new line of content. However, the 
+            limitation of display: inline is that you cannot change the height of the element. Padding and margins still apply, but they cannot be used 
+            to change the height visibly. Common inline elements include: a span img and button.
+          </p>             
         <h3>Inline-block:</h3> 
-      <p class = "answer">display: inline-block is a combination block and inline, as the name suggests. We can set the height and width properties as well as place 
-        elements side by side. We can also set the margin and padding the same way you could with a block level element, but also allow the elements 
-        to not force new lines. <br>
-        <br>  
-        Below are examples of the different ways in which elements can be displayed using display: display:block, display: inline and display: inline-block. 
-      </p>
+          <p class = "answer">
+            display: inline-block is a combination block and inline, as the name suggests. We can set the height and width properties as well as place 
+            elements side by side. We can also set the margin and padding the same way you could with a block level element, but also allow the elements 
+            to not force new lines. <br>
+            <br>  
+            Below are examples of the different ways in which elements can be displayed using display: display:block, display: inline and display: inline-block. 
+          </p>
     </div>
       
     <div class="CSSconceptsimages">
@@ -56,29 +60,36 @@
 
     <h1 class="simpsons" id="JSF">Javascript Fundamentals</h1>
       <h2> An analogy to describe JavaScript and its relationship to HTML and CSS. </h2>
-        <p class = "answer"> 
-          HTML is Gimli – one-dimensional but necessary <br>
-          CSS is Legolas – the hot one <br>
-          Javascript is Aragorn – mysterious and complicated but gets shit done <br>
+          <p class = "answer"> 
+            HTML is Gimli – one-dimensional but necessary <br>
+            CSS is Legolas – the hot one <br>
+            Javascript is Aragorn – mysterious and complicated but gets shit done <br>
           </p>
           <img class="LOTR" src="blog/media/aragornlegolasgimli.jpeg" alt="iconictrio">
       <h2>Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those).</h2>
-        <p class = "answer"> Control flow is how a computer runs code from top to bottom – the equivalent of a human reading a book from start to finish. <br>
-          Loops are used to run the same code repeatedly, but with a different value each time. Kind of like going to work every day, doing the same mindless 
-          thing, with the changing value being the day of the week. 
+          <p class = "answer"> 
+            Control flow is how a computer runs code from top to bottom – the equivalent of a human reading a book from start to finish. <br>
+            Loops are used to run the same code repeatedly, but with a different value each time. Kind of like going to work every day, doing the same mindless 
+            thing, with the changing value being the day of the week. 
           </p>
       <h2>Describe what the DOM is and an example of how you might interact with it.</h2>
-         <p class = "answer"> The Document Object Model helps define the structure of a website through breaking it down into a tree structure composed of nodes 
-          and objects that allow for programming languages to interact with the page. There are many ways to interact with the DOM to change aspects of the page. 
-          This is done through selecting elements through their tags, id or class. A common way of doing this is with the querySelectorAll method. And then changes 
-          can be made to those elements. </p>
+          <p class = "answer"> 
+            The Document Object Model helps define the structure of a website through breaking it down into a tree structure composed of nodes 
+            and objects that allow for programming languages to interact with the page. There are many ways to interact with the DOM to change aspects of the page. 
+            This is done through selecting elements through their tags, id or class. A common way of doing this is with the querySelectorAll method. And then changes 
+            can be made to those elements. 
+          </p>
 
       <h2>Explain the difference between accessing data from arrays and objects.</h2>
           <p class = "answer">
             Both arrays and objects are methods to store data in JavaScript, but they differ in several ways. <br>
             <br>
             An array is a list of items e.g. different types of squid: <br>
-            <p class = "pretendCode"> let squidTypes = [“Giant”, “Colossal”, “Vampire”, “Humboldt”, “Japanese Flying”]; </p>
+            
+            <p class = "pretendCode"> 
+              let squidTypes = [“Giant”, “Colossal”, “Vampire”, “Humboldt”, “Japanese Flying”]; 
+            </p>
+            
             Each item has an index number assigned to them, starting from 0. “Giant” would be assigned 0, as it is the first item in the array and “Japanese 
             Flying” would be assigned 4, as it is the last item in the array. It is through these indexes in which array items can be accessed e.g. <br>
             let squid =  squidTypes[2] which would be “Vampire” 
@@ -93,25 +104,116 @@
 	                readySteadyCook: “Ainsley”, <br>
 	                ironChefAmerica: “The Chairman”, <br>
 	                barefootContessa: “Ina Garten” <br>
-              }; </p>
+              }; 
+            </p>
              
             Object properties can be accessed in two ways using: variable.property; or variable[“property”]; e.g. <br>
             <br>  
-            <p class = "pretendCode">let bestCook = cookShowHost.readySteadyCook <br>
-            let bestHost = cookShowHost["readySteadyCook"] </p><br>
+            
+            <p class = "pretendCode">
+              let bestCook = cookShowHost.readySteadyCook <br>
+            let bestHost = cookShowHost["readySteadyCook"] 
+            </p>
+            <br>
             <img class="ainsley" src="blog/media/ains.jpeg" alt="“Ainsley">
             <br>  
           </p>
 
       <h2>Explain what functions are and why they are helpful.</h2>
-         <p class = "answer"> Functions are statements used in JavaScript that perform tasks or calculate values. They firstly need to be defined and then 
+         <p class = "answer"> 
+          Functions are statements used in JavaScript that perform tasks or calculate values. They firstly need to be defined and then 
           called upon. They’re handy because if you know that you you’ll be using it repeatedly, you can just use the function name, rather than repeatedly
-           typing out all the code. This means if you’ve made a mistake and would like to change the code within the function, you only have to change the 
-           OG one, rather several.  
+          typing out all the code. This means if you’ve made a mistake and would like to change the code within the function, you only have to change the 
+          OG one, rather several.  
         </p>
 
-      </div>
+<br>
+<br>
+
+    <h1 class="simpsons" id="PS"> Problem Solving</h1>
+      <h2> 1. were blocked on a simple problem: </h2>
+        <h3> what was the problem? </h3>
+          <p>
+            Manipulating Objects - “Add a ben property to the value of the terah children property. ben should be an object with the key name and the value "Ben".” 
+          </p>
+        <h3> what problem-solving techniques did you use? </h3>
+          <p>
+            Trying a couple of ways myself and then ultimately asking my friend, who had the correct answer. I was skipping the first step which was the problem. 
+          </p>
+        <h3> how did you feel throughout the process? </h3>
+          <p>
+            Frustrated, cause I felt like I knew the answer, which I did, I was just missing the prior step!
+          </p>
+        <h3> what did you learn? </h3>
+          <p>
+          To not rush and to not get so fixated on one answer being right.
+         </p>
+
+      <h2> 2. elegantly solved a problem. </h2>   
+        <h3> what was the problem? </h3>
+          <p>The deBee function</p>
+        <h3> what problem-solving techniques did you use? </h3>
+          <p>All of them to some degree?!</p>
+        <h3> how did you feel throughout the process? </h3>
+          <p>Impatient</p>
+        <h3> what did you learn? </h3>
+          <p>How valuable pseudocode is – breaking down problems into steps really makes things that seem overwhelming manageable. </p>
+
+
+      <h2> 3. Reflect on how confident you feel using each of these problem-solving techniques/processes:</h2>
+         <h3> Pseudocode </h3>
+          <p>
+            I didn’t use this process prior to this week, but I think this will be really helpful for future 
+            projects that require more steps. 
+          </p>
+         <h3> Trying something </h3>
+          <p>This is pretty much my go-to with JS so far – attempting my inkling and when I find out it doesn’t 
+             work (90% of the time), I try to replace an aspect of it and run it again. This has been somewhat 
+             unsuccessful this far... I’ll do this process repeatedly until I google or ask for help. 
+          </p>
+         <h3> Rubber ducky method </h3>
+          <p>
+            I learnt that this technique consists of explaining the problem you’re trying to solve to a duck. It 
+            involves explaining in simple terms what you’re trying to do with your code. This usually requires 
+            explaining it from beginning to end, which will give you a deeper understanding of how things work 
+            and perspective. So far, I haven’t tried it, mostly because it’s embarrassing, but I can see how 
+            it’s helpful. 
+          </p>
+         <h3> Reading error messages </h3>
+          <p>
+            This has been a big help sometimes. Other times, I have no idea what the error message is saying 
+            but that’s when I google and I’m usually able to find a solid answer because of how specific the 
+            message is. 
+          </p>
+         <h3> Console.logging </h3>
+          <p>
+            I definitely don’t do this enough and need to incorporate it more in my coding. 
+          </p>
+         <h3> Googling </h3>
+          <p>
+            I do this frequently. It’s helpful most of the time. Sometimes the answer will come up straight
+            away but other times, it’s a bit more complicated and the amount of info can get overwhelming. 
+            This probably has to do with having to use more specific language and my lack of familiarity 
+            with JS though.
+          </p>
+         <h3> Asking your peers for help</h3>
+          <p>
+            If I’m really struggling, stuck on a bit and I’ve perused all of Discord for any crumbs of hints 
+            regarding my question and nothing comes up, I will ask. 
+          </p>  
+         <h3> Asking coaches for help</h3>
+          <p>
+            The last resort for me for some reason. It’s not cause I feel like I can’t, cause they’ve made 
+            it very apparent to ask whatever whenever! Maybe I’ll get better at bootcamp. 
+          </p>
+         <h3> Improving your process with reflection</h3>
+           <p>
+            I do a lot of note taking which is sort of reflection in a way? That helps me a lot. 
+          </p>
+
+
+  </div>
       
-  </div>      
+        
 </body>
 </html>
